@@ -1,0 +1,86 @@
+.board {
+  background: #0066CC;
+}
+
+.board h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.column-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.column {
+  background: #fff; 
+    width: 30%;
+    margin-bottom: 25px;
+}
+
+.create-column {
+  margin: 20px;
+  padding: 15px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+}
+
+
+.card button {
+    margin-right: 8px;
+}
+
+
+.column-card-list {
+    min-height: 400px;
+}
+
+
+.column-container .btn-delete {
+    font-weight: bold;
+    border-radius: 50%;
+    
+}
+
+.btn-delete {
+  background: #CC0033;
+  margin: 5px;
+}
+
+.column-container .add-card {
+    background-color: #0066CC;
+    color: #ffffe6;
+    padding: 5px;
+    margin: 8px;
+}
+
+.column-container .add-card:hover {
+    border: 1px solid #006080;
+}
+
+.board .btn {
+    margin: 8px;
+}
+
+.column-container .column-title {
+    height: 30px;
+    background: #0066CC;
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 1px 1px 5px #000;
+    margin: 5px;
+    width: 75%;
+}
+
+.column-container li {
+    list-style-type: none;
+}
+
